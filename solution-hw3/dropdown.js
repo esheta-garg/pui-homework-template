@@ -2,9 +2,9 @@
 
 const glazingType = {// dictionary that contains types of glazing and additional prices for each option
   "original": 0.00,
-  "sugar-milk": 0.00,
-  "vanilla-milk": 0.50,
-  "double-chocolate": 1.50
+  "sugar milk": 0.00,
+  "vanilla milk": 0.50,
+  "double chocolate": 1.50
 };
 
 const packSizes = { "1": 1, "3": 3, "6": 5, "12": 10};//dictionary for pack size and multiplier value 
@@ -34,12 +34,14 @@ function dropdowns() {
 }
 
 function updatePrice(){
-  const glazingPrice= document.getElementById('glazing').value;// gets the numerical value of the selected option in the glazing dropdown
-  const packMultiplier= document.getElementById('packsize').value;// gets the pack size multiplier from the packsize dropdown
+  const glazingPrice= parseFloat(document.getElementById('glazing').value);// gets the numerical value of the selected option in the glazing dropdown
+  const packMultiplier= parseFloat(document.getElementById('packsize').value);// gets the pack size multiplier from the packsize dropdown
   let total= (basePrice + glazingPrice ) * packMultiplier;// computes the total price by adding base price to glazing price, and then using multiplier
   document.querySelector('.price-cart h3').textContent = `$${total.toFixed(2)}`;// selects html element and modifys what is in h3 using .textContent. toFixed formats total to two decimal places, and dollar sign is included using $${}
 }
 
+window.onload = function () {// event that occurs when the webpage has finished loading
+  dropdowns(); }//function is called once the web has loaded
 
 const glazingDropdown = document.getElementById('glazing');
 const packSizeDropdown= document.getElementById('packsize');
