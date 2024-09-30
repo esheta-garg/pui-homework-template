@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head> 
+    <meta charset="UTF-8">
+  <title>Bun Bun Bake Shop</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+ 
+  
+  <body>
+     <!-- navigation Links -->
+  
+     <div class= "nav">
+      <br>
+      <h3 id="products"><a href="./productgallery.html">PRODUCTS</a></h2>
+      <h3 id="cart"><a href="./shoppingcart.html">CART</a></h2>
+      <br>
+    </div> 
+
+     <!-- logo and line-->
+     <header class="header">
+      <a href="productgallery.html"> <img src="../assets/logo/logo-01.svg" alt=""class= "logo"></a>
+      <div class= "line">
+      </div>
+      <br>
+ </header>
+
+
+    <!-- product Detail -->
+
+    <div class="product-detail-wrapper"> 
+
+
+    <div class= "product-detail">
+      <h1> Original cinnamon roll</h1>
+      <img src= "../assets/products/original-cinnamon-roll.jpg" id= "detail-image" alt= "Original Cinnamon Roll" class= "product-image-details">
+    </div>
+
+    <div class = "selection">
+    <h3>Customize our delicious, hand-made cinnamon roll to your liking!</h3>
+
+    <!-- dropdown -->
+
+    <div>
+      <label for= "glazing" > Glazing: </label>
+    </div>
+
+    <div>
+      <select id="glazing" name="glazing"
+      onchange="updatePrice(this)">
+      
+      </select>
+
+    </div>
+
+
+    <div>
+      <label for= "packsize" > Pack Size: </label>
+    </div>
+
+    <div>
+      <select id="packsize" name="packsize"
+        onchange="updatePrice(this)">
+       
+      </select>
+    </div>
+  
+    <div class="price-cart">
+      <h3 id="price"> $2.49 </h3>
+      <button id="addToCartButton">Add to cart</button>
+    </div>
+    
+
+    
+  </div>
+</div> 
+
+  </div>
+
+  <div>
+<!-- js -->
+    <script src="dropdown.js"></script>
+  </body>
+</html>
