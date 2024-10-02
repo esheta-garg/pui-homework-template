@@ -1,0 +1,318 @@
+/* Logo */
+.logo {
+    width: 400px
+
+  }
+
+
+  /* Heading Styles */
+  h1,
+  h2,
+  h3 {
+    color: #333;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 16px;
+  }
+
+  header{
+    display: flex;
+  }
+  
+  /* Image Styles */
+  .product-image-gallery {
+    display: block;
+    width: 285px;
+    height: 285px;
+    border: 2px solid #000000;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: fit-content;
+  
+  }
+  
+  .product-image-details {
+    width: 600x;
+    height: 600px;
+    border: 2px solid #000000;
+    margin: 5px;
+  }
+  
+  .product-image-cart {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    border: 2px solid #000000;
+  }
+  
+  .container,
+  .options {
+    padding: 5px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  /* Button */
+  
+  button {
+    display: block;
+    border: 2px solid #000000;
+    margin-left: auto;
+    width:150px;
+    height:50px; 
+  }
+  
+  .product-detail {
+    text-align: center;
+  
+  }
+  
+  /* dropdown selection */
+  
+  .selection {
+    flex-direction: column;
+    display: flex;
+    width: 250px;
+    margin: auto;
+    gap: 12px;
+  
+  }
+  
+  /*shopping cart formatting */
+  .price-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    margin: auto;
+  }
+  
+  .cartorders {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 80%; /* Make it wider */
+    margin: 0 auto; /* Center horizontally */
+    text-align: left;
+  }
+  
+
+  
+  
+  /* image formatting for product images */
+  .products {
+    /* width: 400px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: left; */
+  
+  }
+  
+  /* hover capability */
+  
+  .item {
+   max-width:fit-content;
+   margin-left:auto;
+   margin-right:auto;
+  
+    
+  }
+  
+  .item:hover {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 5px;
+    
+  }
+  
+  /* highlight to maintain status of page */
+  
+  #products:hover{
+  
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: content-box;
+    width: 100px;
+    background-color: yellow; 
+  }
+  
+  #cart:hover{
+  
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: content-box;
+    width: 60px;
+    background-color: yellow; 
+   
+  }
+  
+  /* removes traditional link style */
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .line{
+    flex: 1; 
+    border-bottom: 4px solid #000;
+    margin-bottom: 100px;
+  }
+  
+   /* grid style to change formatting of the product gallery */
+  .allproducts{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  }
+
+
+ /* flex box for product detail page*/
+.product-detail-wrapper {
+  display: flex;
+  justify-content: space-between; /* spaces this evenly in the grid */ 
+  max-width: 1200px;
+  margin: 50px auto;
+  gap: 50px;
+}
+
+
+.selection select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+ /* price and add to cart button styling*/
+
+
+.price-cart button:hover{
+  background-color: yellow;
+}
+
+
+.checkoutbutton:hover{
+  background-color: yellow;
+}
+/* Cart */ 
+
+
+.itemprice {
+  margin-right: 20px;
+}
+
+.total {
+  text-align: right;
+  margin-top: 20px;
+}
+
+
+.header{
+  display: flex;
+  justify-content: flex-start;
+  align-self: auto;
+  }
+
+.nav{
+  display: flex;
+  position: absolute; /* positioned absolute */ 
+  right: 0; /* gets the div on the right */ 
+  padding: 35px;
+  gap: 20px;
+}
+
+ /* formatting for cart orders */
+.cartorderone{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 20px;
+
+}
+
+.cartordertwo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 20px;
+
+}
+
+.firstbox{
+  padding: 20px;
+  width:auto;
+  text-align: center;
+}
+
+.secondbox{
+  padding: 20px;
+  width: 400px;
+}
+
+.thirdbox{
+  padding: 20px;
+  width:auto;
+}
+
+
+.otherbox{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+}
+
+.checkout{
+  display:flex;
+  justify-content: space-between;
+  justify-content: flex-end;
+  width: 80%;
+}
+
+
+ /* footer style*/
+.total{
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 350px;
+  margin-right: 350px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.checkoutprice{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 350px;
+
+}
