@@ -101,6 +101,22 @@ function addToCart() {
 
 
 
+
+
+
+//CART ITEMS//
+
+
+function addItemToCart(rollType, glazing, packSize, basePrice) {
+  const newRoll = new Roll(rollType, glazing, packSize, basePrice);
+  cart.push(newRoll);
+  updateCartDisplay();
+}
+
+
+
+
+
 window.onload = function () {// event that occurs when the webpage has finished loading
 
   document.querySelector('h1').textContent = rollsName;//changes the text inside that <h1> to the text stored in rollsName
