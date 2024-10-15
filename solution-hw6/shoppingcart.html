@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bun Bun Bake Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Links -->
+    <nav class="nav">
+        <h3 id="products"><a href="./productgallery.html">PRODUCTS</a></h3>
+        <h3 id="cart"><a href="./shoppingcart.html">CART</a></h3>
+        <br>
+    </nav>
+
+    <!-- Logo and line -->
+    <header class="header">
+        <a href="productgallery.html">
+            <img src="../assets/logo/logo-01.svg" alt="Bun Bun Bake Shop Logo" class="logo">
+        </a>
+        <div class="line"></div>
+        <br>
+    </header>
+
+    <div class="cart-title"> <h2> Our handmade cinammon rolls </h2> </div>
+
+    <div class="cartorders" id="cart-items-container">
+  
+    </div>
+
+
+    <template id="cart-item-template">
+        <div class="cart-order">
+            <div class="firstbox">
+                <img src="" alt="" class="cart-item-image">
+                <p class="remove-button" data-index="">Remove</p>
+            </div>
+            <div class="otherbox">
+                <div class="secondbox">
+                    <p class="cart-item-details"></p>
+                </div>
+                <div class="thirdbox">
+                    <h3 class="cart-item-price"></h3>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <hr>
+
+    <div class="checkout">
+        <hr>
+        <div class="total">
+            <h3>Total: </h3>
+            <h3 id="total-price">$0.00</h3>
+        </div>
+
+        <div class="checkoutprice">
+            <button class="checkoutbutton">Checkout</button>
+        </div>
+    </div>
+    <script src="cart.js"></script>
+</body>
+</html>
