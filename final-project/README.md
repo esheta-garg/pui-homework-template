@@ -252,7 +252,7 @@ I hope to include information regarding the menstrual phases in general, as well
 
 ### *Data Visualizations with Tangible Comparisons*
 
-![Data Viz Sketch](final-project/images/DataVisualizationSketch.png)
+![Data Viz Sketch](images/DataVisualizationSketch.png)
 
 Add a few sentences about your design. Briefly state the motivation of each project idea. Example questions to answer:
 
