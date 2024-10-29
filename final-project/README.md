@@ -204,7 +204,7 @@ How would you use Generative AI responsibly?
 
 ### *Music Beatmaker*
 
-![beatmaker sketch](final-project/images/BeatmakerSketch.png)
+![beatmaker sketch](images/BeatmakerSketch.png)
 
 Add a few sentences about your design. Briefly state the motivation of each project idea. Example questions to answer:
 
@@ -228,7 +228,7 @@ I hope to include an overview of the tool and its purpose, as well as the intera
 
 ### *Women's Cycle HeatMap*
 
-![womens cycle image](final-project/images/WomensCycleHeatmapSketch.png)
+![womens cycle image](images/WomensCycleHeatmapSketch.png)
 
 Add a few sentences about your design. Briefly state the motivation of each project idea. Example questions to answer:
 
