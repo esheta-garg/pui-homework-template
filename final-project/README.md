@@ -125,82 +125,79 @@ Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-gener
 
 ## Project Description
 
-Briefly restate your motivation and a short description of your project.
+My project is a music beat maker tool designed to help users easily dive into beat-making with minimal friction. Users can pick sounds for each instrument, load them onto a beatmaker grid, and tap on grid pads to experiment with rhythm and sound, creating their own unique beats. This tool is intended as an informative, intuitive, and accessible entry point for anyone interested in making music, regardless of their experience level. I also want to make it personal by incorporating sounds from my own library, allowing users to experience a part of my creative world. By integrating this in my portfolio, I hope users get to know me more intimately through this auditory experience, as well as get to experience the process of making music to further understand what I do on a macrocosmic level.
 
 ## High-Fi Prototypes
 
 ### *Prototype 1*
 
-![title for prototype1](images/prototype1.png)
+[Music Beatmaker Prototype One](https://www.figma.com/proto/38RhWBfReSF4KtNIf8MIg5/Music-Beatmaker?node-id=15-70&node-type=frame&t=3VUYePJEOFpRnw5X-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A70)
 
-A brief description and summary of the user feedback (\<100 words, 2 images) 
+The feedback I received here included that it was clear that the grid could be clicked on, and that the instruments indicated some sort of music making aspect. The drop down led to sound selection, which users found to be accessible. The labeling of the beat numbers was confusing for users regarding the visibility of a system status.
 
 ### *Prototype 2*
 
-…
+[Music Beatmaker Prototype Two](https://www.figma.com/proto/38RhWBfReSF4KtNIf8MIg5/Music-Beatmaker?node-id=15-70&node-type=frame&t=3VUYePJEOFpRnw5X-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A70)
+
+The feedback received in this version was similar, but users preferred to have a dropdown over the buttons that were displayed below the beat maker for sound selection. 
+
 
 ## Usability Test
 
-Discuss the user feedback you got during the evaluation / usability test (\~300 words). Indicate which feedback you implemented, inspired new directions, or otherwise influenced your final design. 
+During my evaluation, I received helpful user feedback regarding when learning about the way they perceived my tool at a first glance. The users I interviewed understood the tool was integrating the sounds of multiple instruments in some way, and that the pads on the grid were clickable and would respond with visual feedback. They discovered the dropdown which led to a selection of different sounds. There was confusion regarding the numbers on the bottom and why they were highlighted a specific way, which suggested the use of more clarifying highlighting or a grid pattern where the numbers were to indicate that the numbers referred to the beat count. Upon further consideration, it was made clear that having a playhead to indicate a position in the beat would be most helpful in conveying the concept of the beat count, which I decided to implement in my later iteration. One user also suggested having a preview of the sound in the dropdown before the user decided to select it, which I decided to incorporate in my updated hi fi prototype. We also clarified that it would be helpful to highlight the entire row that an instrument was activated on to indicate the system’s status, which I also incorporated in further iteration.
 
 ## Updated Designs
 
-Show screenshots of your updated design based on the user feedback (\<100 words, \~2 images).
+![UpdatedHiFi](images/UpdatedHiFi.png)
+![UpdatedHiFi](images/UpdatedHiFiDropdown.png)
+
+In the updated design, I included a playhead to give more meaning to the beat count at the bottom and indicate the position in the beat. I also included highlighted squares to indicate which instrument and which row is selected. I also included a sound preview where users can hover over each sound in the dropdown to hear it out loud before loading it into the beat maker.
+
 
 ## Feedback Summary
 
-Summarize the feedback you received in the lab session and discuss how it influenced your design (\~300 words). 
+In the lab session, I presented two versions of the high-fidelity prototypes, each with a different approach for sound selection. In the first version, users selected sounds by clicking a dropdown menu beside each instrument, allowing them to choose one of three available sounds to load into the grid. In the second version, users could activate an instrument or its row to reveal three sound options below the beat maker. Here, they could preview each sound by pressing a play button before selecting their choice. During lab and post lab discussion, I found that having a dropdown was a preferred approach because users felt that it was less tasks and less time consuming, and appreciated the concise and accessible layout it provided for sound selection.
+
 
 ## Milestones
 
-Outline weekly milestones to plan your expected implementation progress until the end of the semester (\~300 words). 
+By next wednesday Nov 13 Week 11, I plan to have begun implementing the core structure using HTML, CSS, and JavaScript. I hope to integrate Tone.js or Howler.js libraries to allow users to play and control audio samples. I plan to have set up a basic beat grid or sequencer where users can select beats or samples on a timeline. I will also test basic playback functionalities and verify audio syncing.
+
+By Week 12 Nov 20, I will have built out UI components (e.g., play/pause button, tempo slider, volume control).  I will add interactivity, allowing users to adjust tempo and volume dynamically. I would begin implementing a save/load functionality for beat patterns if possible.
+
+By Week 13  Nov 27, I would like to polish the UI for usability and aesthetics, and fix any remaining bugs or audio syncing issues. I would also implement any additional features (e.g., export beat as audio file, additional sound effects).
+
 
 ### *Implementation Plan*
 
 - [ ] Week 9 Oct 28 \- Nov 1:
   - [X] FP1 due
-  - [ ] ...
   
 - [ ] Week 10 Nov 4 \- Nov 8:   
   - [ ] FP2 due
 
-- [ ] Week 11 Nov 11 \- Nov 15:  
-- [ ] Week 12 Nov 18 \- Nov 22:   
-- [ ] Week 13 Nov 25 \- Nov 29:  
+- [ ] Week 11 Nov 11 \- Nov 15:  FP 3
+- [ ] Week 12 Nov 18 \- Nov 22:  Iterations
+- [ ] Week 13 Nov 25 \- Nov 29:  Final Touches
 
   - [ ] Thanksgiving  
-- [ ] Week 14 Dec 2 \- Dec 6:  
+- [ ] Week 14 Dec 2 \- Dec 6
   - [ ] FP4 due 
 
 ### *Libraries and Other Components*
 
-List the JS libraries and other components (if applicable) that you plan to use. 
-* 
+Howler.js
+Tone.js
 
 
 ## Generative AI Use Plan
 
-Outline how you plan to use Generative AI tools to aid in the implementation (\~300 words).
+For FP3, which involves building foundational features, I plan to use ChatGPT  to assist in structuring complex JavaScript functions and to help debug issues that may arise in early stages. Since I am working with audio libraries (such as Tone.js for sound synthesis), I’ll use ChatGPT to clarify library functions or explore customization ideas. Generative AI might not be as helpful with nuanced UI/UX design decisions that require deep contextual awareness of my target users. Also, AI may have limitations in complex, real-time audio processing requirements that need advanced and precise fine-tuning. I plan to use it responsibly by using it to support my coding and not or over rely on it. I will treat AI suggestions as learning opportunities by analyzing and understanding why certain solutions are recommended, not just copy and paste. 
 
-### *Tool Use*
-
- What would you use? Edit the list given your plan. For each tool, explain briefly on what do you expect Generative AI to help you with and what might it not be able to help you with.
-
-* ChatGPT  
-  * I will use it for … because it can help me …  
-  * I will not use it for … because it might not be able to help me with …   
-* GitHub Copilot  
-* ...
-
-### *Responsible Use*
-
-How would you use Generative AI responsibly? 
-
----
 
 # **FP1 \- Proposal for Critique**
 
-## Idea Sketches
+## Idea Sketches.
 
 ### *Music Beatmaker*
 
