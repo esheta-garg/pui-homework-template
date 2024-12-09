@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Grid with Instruments</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <!-- Instruments Section -->
+    <div class="instruments">
+      <h2>Instruments</h2>
+      <div class="instrument" id="instrument1">
+        <img src="https://via.placeholder.com/50" alt="Instrument 1">
+        <span>Instrument 1</span>
+      </div>
+      <div class="instrument" id="instrument2">
+        <img src="https://via.placeholder.com/50" alt="Instrument 2">
+        <span>Instrument 2</span>
+      </div>
+      <div class="instrument" id="instrument3">
+        <img src="https://via.placeholder.com/50" alt="Instrument 3">
+        <span>Instrument 3</span>
+      </div>
+    </div>
+
+    <!-- Grid Section -->
+    <div id="grid" class="grid"></div>
+  </div>
+
+  <button id="play-button">Play</button>
+  <input id="bpm" type="number" value="120" placeholder="Enter BPM">
+
+  <script src="beatmakerrr.js"></script>
+</body>
+</html>

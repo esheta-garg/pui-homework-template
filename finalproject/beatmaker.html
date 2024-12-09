@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Beatmaker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="controls">
+    <button id="play-button">Play</button>
+    <input type="number" id="bpm" value="120" min="60" max="180">
+    <button id="clear-all">Clear All</button>
+  </div>
+  <div id="beatmaker">
+    <div id="labels"></div>
+    <div id="grid"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
+  <script src="beatmaker.js"></script>
+</body>
+</html>
