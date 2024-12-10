@@ -14,7 +14,7 @@ I tested the website on WAVE to iterate on accessibility. This site should be te
 
 ## Part 2: User Interaction 
 
-![BeatmakerExample](images/finalproject/beatmakerexample.png)
+![BeatmakerExample](images/beatmakerexample.png)
 
 This is an example of what the site would look like upon load, for the user to see an example of an existing beat before playing around with it. I did not have the time to input this change, and struggled with creating it, but wanted to indicate what I would accomplish with more time.
 
@@ -118,11 +118,24 @@ Document the changes and progress of your project. How have you followed or chan
 
 ## Implementation Plan Updates
 
-- [ ] ...
+- [ ] Week 9 Oct 28 \- Nov 1:
+  - [X] FP1 due
+  
+- [X] Week 10 Nov 4 \- Nov 8:   
+  - [X] FP2 due
+
+- [X] Week 11 Nov 11 \- Nov 15:  FP 3
+- [X] Week 12 Nov 18 \- Nov 22:  Iterations
+- [X] Week 13 Nov 25 \- Nov 29:  Final Touches
+
+  - [X] Thanksgiving  
+- [X] Week 14 Dec 2 \- Dec 6
+  - [X] FP4 due 
+
 
 ## Generative AI Use Plan Updates
 
-- [ ] ...
+- I plan to use Gen AI to debug and work on complex issues.
 
 Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-generative-ai-use-and-reflection).
 
