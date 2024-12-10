@@ -6,14 +6,17 @@
 
 # **FP4 \- Final Project Writeup**
 
-Feel free to refer to this [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) to make your writeup more organized, and you can preview your markdown file in VSCode [Markdown editing with Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview). 
-
+I tested the website on WAVE to iterate on accessibility. This site should be tested on laptop screens as well as tablet screens.
 
 ## Part 1: Website Description
 
   The purpose of my website is a  music beat maker tool designed to help users easily dive into beat-making with minimal friction. Users tap on grid pads to experiment with rhythm, creating their own unique beats. This tool is intended as an informative, intuitive, and accessible entry point for anyone interested in making music, regardless of their experience level. It keeps users engaged as they get to explore creatively and maybe try a new way of expressing themselves. The target audience intended to be hiring managers and recruiters, or anyone who wants to get to know me more on my portfolio site. I have incorporated sounds from my own library, allowing users to experience a part of my creative world/hobby.  By integrating this in my portfolio, I hope users get to know me more intimately through this auditory experience, as well as get to experience the process of making music to further understand what I experience on a macrocosmic level. 
 
-## Part 2: User Interaction
+## Part 2: User Interaction 
+
+![BeatmakerExample](images/finalproject/beatmakerexample.png)
+
+This is an example of what the site would look like upon load, for the user to see an example of an existing beat before playing around with it. I did not have the time to input this change, and struggled with creating it, but wanted to indicate what I would accomplish with more time.
 
 How a user would interact with your website? For each step, briefly but clearly state the interaction type & how we should reproduce it.
 
@@ -85,33 +88,27 @@ For the following aspects of your project, edit the corresponding table cell to 
 * It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
   1. ChatGPT: I did not explore generative AI for user customization of sound choices specifically as initially planned. Instead, I ended up using it more extensively for debugging.
 * GenAI tool did/did not influence my final design and implementation plan because … For example, 
-  1. ChatGPT: 
-  2. Tool2:
+  1. ChatGPT: Did not influence my final design and implementation plan because I was using it to mostly confirm ideas I already had. I used it for for clarifying JavaScript concepts and troubleshooting, but the design and functionality were developed independently through my own knowledge and testing
 
 > Use patterns
 * I accepted the generations when …  For example, 
-  1. Tool1: this tool once suggested … and I adjusted my design according to the suggestion because … 
-  2. Tool2: 
+  1. ChatGPT: When ChatGPT suggested using a specific library for handling audio, I followed the recommendation because it aligned with my project’s requirements and worked well. I also took suggestions on how to incorporate the js Library into my existing code. I also took suggestions for requestAnimationframe, to help call a function repeatedly and keep the playhead motion consistent, which assisted greatly in my project. 
 * I critiqued/evaluated the generated suggestions by … For example, 
-  1. Tool1: this tool once suggested … but I modified/rejected the suggestion because … 
-  2. Tool2: 
+  1. ChatGPT: GPT suggested an approach for grid iteration for the playhead, but I rejected it because it didn't make sense and sought an alternative solution through manual debugging and TA consultation.
 
 
 > Pros and cons of using GenAI tools
 * Pros
-  1. Tool1: 
-  2. Tool2:
+  1. ChatGPT: ChatGPT accelerated problem-solving for debugging challenges, and offered strong suggestions for code ideas after I gave it a general plan. It also offered multiple approaches to issues, which helped refine my understanding of the task.
 * Cons
-  1. Tool1: 
-  2. Tool2:
+  1. ChatGPT: Some suggestions are overly generic or inaccurate, or complicate simple ideas too much. I would use Google or draw things out instead, if that would happen. 
 
 
 ### Usage Log
 
 Document the usage logs (prompts and chat history links) for the GenAI tools you used. Some tools may not have an easy way to share usage logs, just try your best! Some instructions for different tools:
 
-1. [ChatGPT](https://help.openai.com/en/articles/7925741-chatgpt-shared-links-faq) / [Gemini](https://support.google.com/gemini/answer/13743730?hl=en&co=GENIE.Platform%3DDesktop): share the anonymous link to all of your chat histories relevant to this project
-2. [GitHub Copilot (VSCode)](https://code.visualstudio.com/docs/copilot/copilot-chat#:~:text=You%20can%20export%20all%20prompts%20and%20responses%20for%20a%20chat%20session%20in%20a%20JSON%20file%20with%20the%20Chat%3A%20Export%20Session...%20command%20(workbench.action.chat.export)%20in%20the%20Command%20Palette.): export chat histories relevant to this project.
+1. [ChatGPT](https://chatgpt.com/share/67577b4c-feec-8001-96bc-eac013065485) [ChatGPT2](https://chatgpt.com/share/67578bb6-2498-8001-83ae-89ac25867f4f)
 
 ---
 
